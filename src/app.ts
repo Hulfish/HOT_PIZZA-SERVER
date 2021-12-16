@@ -16,7 +16,7 @@ config({path: (__dirname + "/.env")})
 const app = express()
 const mongo_client = new Mongoose()
 const PORT = process.env.PORT || 5000
-const DB_URL = "mongodb+srv://qwerty:qwerty123@cluster0.1svn0.mongodb.net/stepa?authSource=admin&replicaSet=atlas-ovcj50-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true"
+const DB_URL = "put here your db url"
 
 app.use(cookieParser())
 app.use(express.json())
